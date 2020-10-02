@@ -1,0 +1,29 @@
+{
+  "AllowedHosts": "*",
+  "ApplicationConfiguration": {
+    "EnterpriseServiceSettingUrl": "http://enterprisesettings.perf.svc/enterprisesettingssvc/V1/SettingsReaderService.svc/basic",
+    "GiiUtilitiesServiceSettings": [
+      {
+        "CodeSign": "LfByRW+-~sz$N94a.1*%MP0o",
+        "Domain": "AMERICAS",
+        "EndpointAddress": "http://gedis-gii-perf-us.dell.com/GDASServ.FY17R3.6/UtilitiesService.svc/basic",
+        "Region": "ASIA",
+        "UserName": "SERVICESCS_NONPROD"
+      },
+      {
+        "CodeSign": "LfByRW+-~sz$N94a.1*%MP0o",
+        "Domain": "AMERICAS",
+        "EndpointAddress": "http://gedis-gii-perf-apj.dell.com/GDASServ.FY17R3.6/UtilitiesService.svc/basic",
+        "Region": "EURO",
+        "UserName": "SERVICESCS_NONPROD"
+      }
+    ],
+    "ShippingInstructionsMethods": "FE,DA,VD,DD,DC,FC,MU,RE,OT,EX,DP,TS"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  }
+}
